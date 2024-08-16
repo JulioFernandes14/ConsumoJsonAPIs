@@ -1,0 +1,39 @@
+* {
+	
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background:#021550;
+	padding:20px;
+}
+
+main {
+	
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+	background:#f2c021;
+	color:#021550;
+	border-radius:10px;
+	
+}
+
+.tabela-clima div {
+	border:1px solid #f2c021;
+	background:#021550;
+	color:#f2c021;
+	font-size:18px;
+	padding:10px;
+}
+
+.cabecalho {
+	font-weight:bold;
+}
+
+.tabela-clima {
+	padding:20px;
+}

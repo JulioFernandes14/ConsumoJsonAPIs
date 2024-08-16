@@ -1,0 +1,31 @@
+@media screen and (max-width:800px) {
+
+	main {
+		width:90%;
+	}
+	
+}
+
+@media screen and (max-width:500px) {
+
+	main {
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width:400px) {
+
+	.tabela-clima div {
+		
+		font-size:14px;
+		
+	}
+	
+	h2 {
+		
+		font-size:20px;
+		
+	}
+	
+}

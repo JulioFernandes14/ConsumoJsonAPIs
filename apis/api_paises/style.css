@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #021550;
+    color: #f2c021;
+    padding: 50px;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+.sessao-cards {
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+}
+
+.cardP {
+    padding: 10px;
+}
+
+.informacoes {
+    border: 5px solid #f2c021;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img img {
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.card-conteudo {
+    color: #f2c021;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-conteudo span {
+    margin: 5px;
+}
+
+.informacoes .card-conteudo {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.card-link {
+    background-color:#f2c021;
+    text-align: center;
+}
+
+.card-link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #021550;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border-top: 5px solid #f2c021;
+}
+
+.card-link a:hover {
+    background-color: #021550;
+    color: #f2c021;
+}
+
+.busca {
+    padding: 20px;
+	display:flex;
+	justify-content:center;
+	gap:10px;
+}
+
+.busca input{
+    width: 500px;
+    padding: 10px;
+    background-color: #021550;
+    border: 3px solid #f2c021;
+    color: #f2c021;
+}
+
+input::placeholder {
+    color: #f2c021;/* Cor desejada para o placeholder */
+}

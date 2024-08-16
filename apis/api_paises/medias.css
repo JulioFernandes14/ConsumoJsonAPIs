@@ -1,0 +1,36 @@
+@media screen and (max-width:1400px) {
+    
+    .sessao-cards {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:1240px) {
+    
+    .sessao-cards {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    
+    .sessao-cards {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    
+    .sessao-cards {
+        padding: 10px;
+    }
+
+    .cardP {
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+
+}
